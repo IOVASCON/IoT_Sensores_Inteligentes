@@ -89,7 +89,7 @@ def detect_motion_in_video(input_video_path, output_video_path):
 
 # Exemplo de uso
 if __name__ == "__main__":
-    input_video = "L:/VSCode/ARDUINO/Sensores_Inteligentes/data/videos/input_video.mp4"  # Defina o caminho do vídeo de entrada
-    output_video = "L:/VSCode/ARDUINO/Sensores_Inteligentes/data/videos/output_video.avi"  # Defina o caminho para o vídeo de saída
+    input_video = "L:\VSCode\PYTHON\DIO\IoT_Sensores_Inteligentes/data/videos/input_video.mp4"  # Defina o caminho do vídeo de entrada
+    output_video = "L:\VSCode\PYTHON\DIO\IoT_Sensores_Inteligentes/data/videos/output_video.avi"  # Defina o caminho para o vídeo de saída
 
     detect_motion_in_video(input_video, output_video)

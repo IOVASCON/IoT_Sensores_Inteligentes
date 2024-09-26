@@ -8,7 +8,7 @@ O objetivo deste projeto foi desenvolver uma aplicação em Python utilizando a 
 
 A estrutura de pastas do projeto é a seguinte:
 
-    Sensores_Inteligentes/
+    IoT_Sensores_Inteligentes/
     │
     ├── config/
     │   └── yolo_config.json
@@ -18,8 +18,9 @@ A estrutura de pastas do projeto é a seguinte:
     │   ├── models/
     │   │   └── yolo.h5
     │   └── videos/
-    │       ├── input_video.mp4    # Vídeo de entrada com pássaros voando
-    │       └── output_video.avi   # Vídeo de saída com contornos detectados
+    |   |_____frames/
+    │   ├── input_video.mp4    # Vídeo de entrada com pássaros voando
+    │   └── output_video.avi   # Vídeo de saída com contornos detectados
     ├── notebooks/
     ├── src/
     │   ├── motion_detection.py    # Código principal para detectar movimento
@@ -128,7 +129,8 @@ Vídeo de Saída
 
 ## Clone este repositório
 
-git clone <https://github.com/IOVASCON/Sensores_Inteligentes_IoT.git>
+git clone <https://github.com/IOVASCON/IoT_Sensores_Inteligentes.git>
+
 cd NOME_DO_REPOSITORIO
 
 ## Instale as dependências
