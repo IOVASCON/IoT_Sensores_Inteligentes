@@ -24,9 +24,3 @@ __pycache__/
 *.tmp
 *.bak
 *.old
-
-# Ignorando vídeos e modelos grandes
-data/models/*.h5
-data/videos/*.mp4
-data/videos/*.avi
-data/models/yolo.h5
