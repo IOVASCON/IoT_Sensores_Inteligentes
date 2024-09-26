@@ -1,0 +1,32 @@
+# Ignorar pastas e arquivos comuns de desenvolvimento
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.swp
+*.swo
+*.swn
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Permitir arquivos de mídia (imagens e vídeos)
+!*.png
+!*.jpg
+!*.jpeg
+!*.mp4
+!*.avi
+
+# Ignorar outros tipos de arquivos temporários
+*.tmp
+*.bak
+*.old
+
+# Ignorando vídeos e modelos grandes
+data/models/*.h5
+data/videos/*.mp4
+data/videos/*.avi
+data/models/yolo.h5

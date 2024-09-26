@@ -1,0 +1,27 @@
+{
+    "model": {
+        "model_path": "data/models/yolo.h5",
+        "model_type": "YOLOv3",
+        "confidence_threshold": 0.5,
+        "frames_per_second": 20
+    },
+    "classes": {
+        "0": "person",
+        "1": "bicycle",
+        "2": "car",
+        "3": "motorbike",
+        "4": "aeroplane",
+        "5": "bus",
+        "6": "train",
+        "7": "truck",
+        "8": "boat",
+        "9": "traffic light"
+    },
+    "detection": {
+        "log_progress": true,
+        "save_detected_video": true
+    },
+    "output": {
+        "video_output_path": "data/videos/output_video"
+    }
+}
