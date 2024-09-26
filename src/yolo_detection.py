@@ -30,8 +30,8 @@ def detect_objects_in_video(input_video_path, output_video_path, model_path, fra
 
 # Exemplo de uso
 if __name__ == "__main__":
-    input_video = "L:/VSCode/ARDUINO/Sensores_Inteligentes/data/videos/input_video.mp4"  # Defina o caminho do vídeo de entrada
-    output_video = "L:/VSCode/ARDUINO/Sensores_Inteligentes/data/videos/output_video.mp4"    # Caminho para o vídeo de saída
-    model_path = 'L:/VSCode/ARDUINO/Sensores_Inteligentes/data/models/yolo.h5'   # Caminho para o modelo YOLO
+    input_video = "L:\VSCode\PYTHON\DIO\IoT_Sensores_Inteligentes/data/videos/input_video.mp4"  # Defina o caminho do vídeo de entrada
+    output_video = "L:\VSCode\PYTHON\DIO\IoT_Sensores_Inteligentes/data/videos/output_video.mp4"    # Caminho para o vídeo de saída
+    model_path = 'L:\VSCode\PYTHON\DIO\IoT_Sensores_Inteligentes/data/models/yolo.h5'   # Caminho para o modelo YOLO
 
     detect_objects_in_video(input_video, output_video, model_path)
